@@ -4,13 +4,13 @@
 **Expense Manager** is a tool that helps people manage their finances better. It lets users track their income, expenses, and budgets all in one place, helping them take control of their money and make smart financial decisions. <br>
 
 ## Table of Contents
-- [Controller](#view)
+- [Controller](#src/main/java/com/example/csc325_firebase_webview_auth/view)
 - [Documentation](#documentations)
 - [Design](#figma_v1)
 - [Files](#files)
 - [Models](#models)
 - [Utils](#utils)
-- [ViewModel](#viewmodel)
+- [ViewModel](#src/main/java/com/example/csc325_firebase_webview_auth/viewmodel)
 <br>
 ## Features
 - User Authentication: Register and Log in to access the app.
