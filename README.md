@@ -4,11 +4,11 @@
 **Expense Manager** is a tool that helps people manage their finances better. It lets users track their income, expenses, and budgets all in one place, helping them take control of their money and make smart financial decisions. <br>
 
 ## Table of Contents
-- [Features](#Features)
-- [Installation](#Installation)
-- [Contribution](#Contribution)
-- [Contributors](#Contributors)
-- [Languages](#Languages)
+- [Features](#features)
+- [Installation](#installation)
+- [Contribution](#contribution)
+- [Contributors](#contributors)
+- [Languages](#languages)
 - [Contact](#contact)
 
 ## Features
@@ -32,7 +32,7 @@ Steps:
 - Issues: Report any issues or bugs through the issues tab on GitHub.
 - Improvements: Any advice/improvements is appreciated, you can create an issue to do so. Thank you
 
-### Contributor
+## Contributors
 - I served as the Project Manager during development, designed the frontend, and also contributed to the backend.
 - Our team consisted of 5 members, and I want to acknowledge their contributions while respecting their privacy.
 
