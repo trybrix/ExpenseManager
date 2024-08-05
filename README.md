@@ -4,13 +4,12 @@
 **Expense Manager** is a tool that helps people manage their finances better. It lets users track their income, expenses, and budgets all in one place, helping them take control of their money and make smart financial decisions. <br>
 
 ## Table of Contents
-- [Controller](#src/main/java/com/example/csc325_firebase_webview_auth/view)
-- [Documentation](#documentations)
-- [Design](#figma_v1)
-- [Files](#files)
-- [Models](#models)
-- [Utils](#utils)
-- [ViewModel](#src/main/java/com/example/csc325_firebase_webview_auth/viewmodel)
+- [Features](#Features)
+- [Installation](#Installation)
+- [Contribution](#Contribution)
+- [Contributors](#Contributors)
+- [Languages](#Languages)
+- [Contact](#contact)
 
 ## Features
 - User Authentication: Register and Log in to access the app.
@@ -38,6 +37,7 @@ Steps:
 - Our team consisted of 5 members, and I want to acknowledge their contributions while respecting their privacy.
 
 ## Languages
+The app is primarily coded in Java and JavaFX, but we also used HTML and CSS for additional features.
 1. Java
 2. JavaFX
 3. ~CSS
@@ -48,4 +48,4 @@ Name: Jan Brix Batalla
 Email: janbrix.batalla@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/janbrix-batalla/)
 - [GitHub](https://github.com/trybrix)
-- [x] Personal Website : Coming soon
+- [ ] Personal Website : Coming soon
