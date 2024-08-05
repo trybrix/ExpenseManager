@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane fx:id="scrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="652.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_firebase_webview_auth.view.MainPageController">
+   <content>
+      <BorderPane prefHeight="798.0" prefWidth="640.0">
+         <top>
+            <AnchorPane prefHeight="57.0" prefWidth="648.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="expenseManagerButton" layoutX="15.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleExpenseManagerButtonAction" style="-fx-background-color: transparent; -fx-text-fill: #000;" text="ExpenseManager">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="aboutUsButton" layoutX="422.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleAboutUsButtonAction" style="-fx-background-color: transparent; -fx-text-fill: #000;" text="About Us">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="dashboardButton" layoutX="495.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleDashboardButtonAction" style="-fx-background-color: transparent; -fx-text-fill: #000;" text="Dashboard">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="loginButton" layoutX="580.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" style="-fx-background-color: #000; -fx-text-fill: #fff; -fx-background-radius: 7;" text="Log In">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </top>
+         <bottom>
+            <AnchorPane prefHeight="200.0" prefWidth="589.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox layoutX="141.0" layoutY="144.0" prefHeight="100.0" prefWidth="10.0" />
+                  <Label alignment="CENTER" layoutX="24.0" layoutY="42.0" style="-fx-background-color: #f7f7f7;" text="Track Smart, Save Big!" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <padding>
+                        <Insets bottom="35.0" left="150.0" right="150.0" top="35.0" />
+                     </padding>
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" layoutX="-3.0" layoutY="155.0" prefHeight="78.0" prefWidth="644.0" style="-fx-background-color: transparent;" text="© 2024 ExpenseManager. All Rights Reserved." AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <font>
+                        <Font name="Roboto" size="13.0" />
+                     </font>
+                  </Label>
+
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="220.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Social_Icons.png" />
+                     </image>
+                  </ImageView>
+                  <!--                  <FontAwesomeIconView glyphName="FACEBOOK" layoutX="285.0" layoutY="198.0" onMouseClicked="#handleFacebookIconClick"/>-->
+                  <!--                  <FontAwesomeIconView glyphName="LINKEDIN" layoutX="310.0" layoutY="198.0" onMouseClicked="#handleLinkedInIconClick"/>-->
+                  <!--                  <FontAwesomeIconView glyphName="TWITTER" layoutX="360.0" layoutY="198.0" onMouseClicked="#handleTwitterIconClick"/>-->
+                  <!--                  <FontAwesomeIconView glyphName="INSTAGRAM" layoutX="335.0" layoutY="198.0" onMouseClicked="#handleInstagramIconClick"/>-->
+                  <!--
+                  for some reason attribute glyphName is not allowed and the property is always on read-only
+                      however when this is cut out and rerun, the App is able to load the mainpage.fxml
+
+                      -->
+
+               </children>
+            </AnchorPane>
+         </bottom>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text layoutX="162.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ExpenseManager">
+                     <font>
+                        <Font name="Roboto Bold" size="43.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="140.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A tool designed to help you manage their finances more effectively and efficiently">
+                     <font>
+                        <Font name="Roboto" size="10.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane layoutX="20.0" layoutY="93.0" prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="3.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Us">
+                           <font>
+                              <Font name="Roboto Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="7.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn more about our mission to simplify your " />
+                        <Button fx:id="learnMoreButton" layoutX="7.0" layoutY="113.0" mnemonicParsing="false" onAction="#handleLearnMoreButtonAction" style="-fx-background-color: #000; -fx-background-radius: 7; -fx-text-fill: #fff;" text="Learn More" />
+                        <Text layoutX="7.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="financial management and help you achieve " />
+                        <Text layoutX="8.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="your financial goals." />
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="83.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@teampic.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="345.0" layoutY="92.0" prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="3.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+                           <font>
+                              <Font name="Roboto Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="7.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get a comprehensive overview of your " />
+                        <Button fx:id="viewButton" layoutX="7.0" layoutY="113.0" mnemonicParsing="false" onAction="#handleViewButtonAction" style="-fx-background-color: #000; -fx-background-radius: 7; -fx-text-fill: #fff;" text="View" />
+                        <Text layoutX="7.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="expenses, income, and financial health all in " />
+                        <Text layoutX="7.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="one place." />
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="83.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@dashboard.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="182.0" layoutY="317.0" prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="3.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create an account">
+                           <font>
+                              <Font name="Roboto Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="7.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Join us today to take control of your finances" />
+                        <Button fx:id="signUpButton" layoutX="7.0" layoutY="113.0" mnemonicParsing="false" onAction="#handleSignUpButtonAction" style="-fx-background-color: #000; -fx-background-radius: 7; -fx-text-fill: #fff;" text="Sign Up" />
+                        <Text layoutX="7.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="with our user-friendly expense management " />
+                        <Text layoutX="7.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tool." />
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="83.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@account.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children></AnchorPane>
+         </center>
+      </BorderPane>
+   </content>
+</ScrollPane>
